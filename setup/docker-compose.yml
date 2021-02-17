@@ -17,7 +17,7 @@ services:
   control:
     image: codespaces/ansible-control:3.0.0
     ports:
-      - "8000:8000"
+      - "8000:8001"
     volumes:
       - cs-ansible:/root/workspace
     networks:
